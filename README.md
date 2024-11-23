@@ -2,7 +2,7 @@
 Aplikasi catatan harian adalah perangkat lunak yang dirancang untuk membantu pengguna mencatat, menyimpan, dan mengelola informasi pribadi secara digital. Aplikasi ini berfungsi seperti buku harian tradisional, namun dengan kelebihan tambahan seperti aksesibilitas, fitur pencarian, pengorganisasian berdasarkan kategori atau tanggal, dan integrasi dengan perangkat lain.
 
 ## Komponen 
-- GUI : JFrame, JPanel, JTextArea, JList, JButton, dll
+- GUI : JFrame, JPanel, Jlabel, JTextField, JTable, JButton, JscrollPane
 - Java class
 - iText PDF : Mengekspor ke PDF
 - Mysql : menyimpan data
@@ -17,12 +17,8 @@ Aplikasi catatan harian adalah perangkat lunak yang dirancang untuk membantu pen
 - Refresh dan
 - Mengekspor
 
+## 
 ## Dokumentasi Kode
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package view;
 
 import controller.CatatanController;
